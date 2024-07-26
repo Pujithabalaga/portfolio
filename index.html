@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Campatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/b7b718f8b1.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo.png" alt="logo" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#certifications">certifications</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>  
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    
+                    <div class="text">
+                        <h1> I'm PUJITHA BALAGA, </h1>
+                        <p>a passionate and motivated computer science graduate with a strong foundation in software development and problem-solving</p>    
+                    </div>      
+                </div>
+                <div class="resume">
+                    <a href="images/resume.pdf" download class="btn">Download Resume</a>
+                </div>
+            </div>
+        </div>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <h1 class="sub-title">About Me</h1>
+                        <br>
+                        <p>
+                            Hello and welcome to my portfolio! I'm PUJITHA BALAGA, a passionate and motivated computer science graduate with a strong foundation in software development and problem-solving. Throughout my academic journey, I've acquired a diverse set of skills and experiences that have equipped me to tackle challenges in the ever-evolving field of technology.
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        </div>
+                        
+                        <div class="tab-contents active-tab" id="education">
+                            <ul>
+                                <li><span>B.Tech(2021-25)</span><br><br>Studying Computer Science and Engineering, Visakhapatnam<br>CGPA: 9.3</li>
+                                <li><span>Intermediate(2019-21)</span><br><br>Studied MPC at Sri Chaitanya Junior College, Rajam<br>Percentage: 98%</li>
+                                <li><span>10th Class(2018-19)</span><br><br>Studied at Sri Vidyaniketan School, Rajam<br>GPA: 10</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Data Engineering Virtual Internship</span><br><br>● I recently completed a virtual internship in Data Engineering through AICTE, where I used AWS tools such as IAM,
+                                    S3, Glue, Athena, and QuickSight.
+                                    <br><br>● This experience involved working on data storage, ETL processes, and data analysis. It enhanced my skills in
+                                    managing cloud-based data workflows and creating insightful visualizations.
+                                    </li>
+                                <li><span>Honors in computer science and engineering</span><br><br>● Web Designing (HTML, CSS, JS)<br><br>
+                                    ● Node JS web Development
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="about-col-2">
+                        <img src="images/img2.jpg" alt="about">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="skills">
+            <div class="container">
+                <h1 class="sub-title">Skills</h1>
+                <br>
+                <div class="skills-list">
+                    <div class="t-skills-list-1">
+                        <h2>Technical skills</h2>
+                        <br>
+                        <ul>
+                            <li><span>Programming Languages :</span><br>&nbsp; c, c++, java</li>
+                            <li><span>Web Technologies : </span><br>&nbsp; HTML, CSS, javascript</li>
+                            <li><span>Tools :</span><br>&nbsp; MS Word, MS Excel, MS PowerPoint</li>
+                            <li><span>Course Work :</span><br>&nbsp; Data Structures and Algorithms, Operating Systems,
+                                Design Analysis of Algorithms, Data Base
+                                Management Systems</li>
+                        </ul> 
+                    </div>
+                    <div class="t-skills-list-2">
+                        <h2>Soft Skills</h2>
+                        <br>
+                        <ul>
+                            <ul>
+                                <li><span>Adaptability :</span><br>&nbsp; Ability to adjust to new or changing circumstances.</li>
+                                <li><span>Positive Attitude :</span><br>&nbsp; Maintaining an optimistic outlook even in challenging situations.</li>
+                                <li><span>Work Ethic :</span><br>&nbsp; Dedication, reliability, and commitment to excellence in work.</li>
+                                <li><span>Problem Solver :</span><br>&nbsp; Ability to analyze complex issues and develop effective solutions.</li>
+                            </ul>
+                            
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- --------------certifications----------------- -->
+        <div id="certifications">
+            <div class="container">
+                <h1 class="sub-title">My certifications</h1>
+                <div class="work-list">
+
+                    <div class="work">
+                        <center><h1>AWS Cloud Virtual Internship</h1>
+                            <a href="images/cloud-certificate.pdf" download><i class="fa-solid fa-download"></i> </a>
+                        </center>    
+                    </div>
+                    <div class="work">
+                        <center>
+                            <h1>Juniper Networking Virtual Internship</h1>
+                            <a href="images/networking-certificate.pdf" download><i class="fa-solid fa-download"></i> </a>
+                        </center>
+                    </div>
+                    <div class="work">
+                        <center>
+                            <h1>Infosys Python Foundation Certification</h1>
+                            <a href="images/python-certificate.pdf" download><i class="fa-solid fa-download"></i></a>
+                        </center>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ------------Contact ----------------->
+         <!-- contact -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-envelope"></i> pujithabalaga8@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>9676614768</p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/pujitha-balaga-116527235" target="blank"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/pujitha-balaga" target="blank"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                        <a href="images/resume.pdf" download class="btn">Download Resume</a>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="message" placeholder="Your Message" required></textarea>
+                            <button type="submit" class="btn">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            var tablinks = document.getElementsByClassName('tab-links');
+            var tabcontents = document.getElementsByClassName('tab-contents');
+            function opentab(tabname) {
+                for (var tablink of tablinks) {
+                    tablink.classList.remove('active-link');
+                }
+                for (var tabcontent of tabcontents) {
+                    tabcontent.classList.remove('active-tab');
+                }
+                event.currentTarget.classList.add('active-link');
+                document.getElementById(tabname).classList.add('active-tab');
+            }
+        </script>
+        <script>
+            var sidemenu=document.getElementById('sidemenu');
+            function openmenu()
+            {
+                sidemenu.style.right='0';
+            }
+            function closemenu()
+            {
+                sidemenu.style.right='-250px';
+            }
+        </script>
+    </body>
+</html>
